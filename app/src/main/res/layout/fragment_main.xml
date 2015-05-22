@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp" tools:context=".MainActivityFragment">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@id/fragment_main_car_width"
+            android:hint="Car Width"
+            android:inputType = "numberDecimal"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="X"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@id/fragment_main_car_length"
+            android:hint="Car Length"
+            android:inputType = "numberDecimal"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@id/fragment_main_dimensions_box_width"
+            android:hint="Box Width"
+            android:inputType = "numberDecimal"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="X"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@id/fragment_main_dimensions_box_length"
+            android:hint="Box Length"
+            android:inputType = "numberDecimal"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@id/fragment_main_between_wheels"
+        android:hint="Distance Between Wheels"
+        android:inputType = "numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+    <EditText
+        android:hint = "A wheel from curb"
+        android:id="@id/fragment_main_leftfromcurb"
+        android:inputType = "numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:hint="Another wheel from curb"
+        android:id="@id/fragment_main_rightfromcurb"
+        android:inputType = "numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:hint = "Corner to L/R edge, the shortest one"
+        android:id="@id/fragment_main_closestfromedge"
+        android:inputType = "numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@id/fragment_main_calculate_button"
+        android:text="Calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@id/fragment_main_score"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:text="Stop being judgemental.\n Go home and cry yourself a river."
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

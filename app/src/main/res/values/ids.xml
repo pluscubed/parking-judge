@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="fragment_main_car_width" type="id" />
+    <item name="fragment_main_dimensions_box_width" type="id" />
+    <item name="fragment_main_dimensions_box_length" type="id" />
+    <item name="fragment_main_between_wheels" type="id" />
+    <item name="fragment_main_leftfromcurb" type="id" />
+    <item name="fragment_main_rightfromcurb" type="id" />
+    <item name="fragment_main_closestfromedge" type="id" />
+    <item name="fragment_main_score" type="id" />
+    <item name="fragment_main_calculate_button" type="id" />
+    <item name="fragment_main_farleftfromedge" type="id" />
+    <item name="fragment_main_car_length" type="id" />
+</resources>
